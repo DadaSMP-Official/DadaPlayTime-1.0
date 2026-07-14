@@ -1,0 +1,17 @@
+name: DadaPlayTime
+version: '1.0.0'
+main: it.dadasmp.playtime.DadaPlayTimePlugin
+api-version: '1.20'
+author: DadaSMP
+description: Premi playtime con GUI modificabile.
+commands:
+  playtime:
+    description: Apre la GUI dei premi playtime.
+    usage: /playtime
+permissions:
+  dadaplaytime.use:
+    description: Permette di usare /playtime.
+    default: true
+  dadaplaytime.admin:
+    description: Permette di usare /playtime gui admin e /playtime reload.
+    default: op
